@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hellomap.MenuActivity">
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mapa"
+        android:onClick="btnMapaOnClick" />
+    
+    <Button
+        android:id="@+id/btnListClien"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listaCliente"
+        android:onClick="btnListClienOnClick" />    
+        
+    <Button
+        android:id="@+id/btnListRota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/listaRota"
+        android:onClick="btnListRotaOnClick" />
+    
+    <Button
+        android:id="@+id/btnPercorrido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/percorrido"
+        android:onClick="btnPercorridoOnClick" />    
+        
+    <Button
+        android:id="@+id/btnAtualiza"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atualiza_localizacao"
+        android:onClick="btnAtualizaOnClick" />    
+        
+    <Button
+        android:id="@+id/btnSincro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sincronizar"
+        android:onClick="btnSincroOnClick" />
+</LinearLayout>
+

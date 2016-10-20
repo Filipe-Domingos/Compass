@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Compass</string>
+    <string name="activity_localizacao">Localização</string>
+    <string name="activity_clientes">Clientes</string>
+    <string name="activity_rotas">Rotas</string>
+    <string name="activity_consRota">Consulta Rota</string>
+    <string name="activity_percorrido">Percorrido no Dia</string>
+    <string name="activity_sincronizar">Sincronizar</string>
+    <string name="action_settings">Settings</string>
+    <string name="mapa">Mapa</string>
+    <string name="listaCliente">Listar Clientes</string>
+    <string name="listaRota">Listar Rotas</string>
+    <string name="codigo">Código:</string>
+    <string name="nome">Nome:</string>
+    <string name="receber_clientes">Receber Clientes</string>
+    <string name="receber_rotas">Receber Rotas</string>
+    <string name="enviar_localizacao">Enviar Localizações</string>
+    <string name="enviar_local_rotas">Enviar Dados Rotas</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="percorrido">Percorrido no dia</string>
+    <string name="title_activity_cliente__mapa_">Localização do Cliente</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_rota_percorrida">Lista de Rotas Percorridas</string>
+    <string name="title_activity_atualiza_location">Atualiza Localização</string>
+    <string name="atualiza_localizacao">Atualizar Localização</string>
+
+</resources>

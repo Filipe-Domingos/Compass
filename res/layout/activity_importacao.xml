@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/chkCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receber_clientes" />
+    
+    <CheckBox
+        android:id="@+id/chkRotas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receber_rotas" />
+    
+    <CheckBox
+        android:id="@+id/chkEnviaLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar_localizacao" />
+    
+    <CheckBox
+        android:id="@+id/chkEnviaRot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar_local_rotas" />
+
+    <Button
+        android:id="@+id/btnSincro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sincronizar" 
+        android:onClick="btnSincroOnClick"/>
+
+</LinearLayout>
